@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - dev@127.4.7.8</title>
+
+    <link rel="icon" type="png|image" href="IMAGES/sailogo.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 10%;
+            text-align: center;
+        }
+	
+        h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: green;
+        }
+
+        p {
+            width: 80%;
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 1.5;
+            color: lightgray;
+        }
+
+        .home-sci {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+            font-size: 66px;
+            color: lightgray;
+        }
+
+        .home-sci a {
+            color: lightgray;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .home-sci a:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+    <script src="JAVASCRIPT/matrix.js"></script>
+
+    <header class="header">
+        <a href="#" class="logo">{Portfolio}</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;" class="active">Home</a>
+            <a href="about.html" style="--i:2;">About</a>
+            <a href="skills.html" style="--i:3;">Skills</a>
+            <a href="projects.html" style="--i:4;">Projects</a>
+            <a href="contact.html" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to connect, feel free to reach out through any of the platforms below:</p>
+        
+        <div class="home-sci">
+            <a href="https://github.com/Dev-0618" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/deva-kumar-377684254/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://youtube.com/@devakumar6723" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <a href="https://www.instagram.com/127.4.7.8/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
+
+</body>
+</html>
