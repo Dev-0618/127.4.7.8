@@ -78,11 +78,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 70px 10% 0;
+    flex-direction: column; /* Stack elements vertically */
 }
 
 .home-content {
     max-width: 600px;
     padding: 50px;
+    text-align: center; /* Center text for mobile view */
 }
 
 .home-content h1 {
