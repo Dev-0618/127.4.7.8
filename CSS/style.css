@@ -18,13 +18,11 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.548), green, rgba(0, 0, 0, 0.548));
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    /* border-radius: 100px; */
 }
 
 .logo {
@@ -36,7 +34,6 @@ body {
     pointer-events: none;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    
 }
 
 .navbar a {
@@ -50,6 +47,7 @@ body {
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
+
 .navbar a::after {
     content: '';
     width: 0;
@@ -85,7 +83,6 @@ body {
 .home-content {
     max-width: 600px;
     padding: 50px;
-    /* margin-left: -30px; */
 }
 
 .home-content h1 {
@@ -142,7 +139,6 @@ body {
     opacity: 0;
     animation: zoomIn 1s ease forwards;
     animation-delay: 0.4s;
-    
 }
 
 .home-sci a:hover {
@@ -183,7 +179,6 @@ body {
 .home-img .glowing-circle {
     width: 100%;
     height: 100%;
-   
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -195,7 +190,7 @@ body {
     position: absolute;
     width: 380px;
     height: 380px;
-    background-color:black;
+    background-color: black;
     border-radius: 50%;
 }
 
@@ -252,12 +247,11 @@ canvas {
     left: auto;
     background-color: black;
     z-index: -1;
-    background-size:cover;
+    background-size: cover;
     background-blend-mode: multiply;
     background-size: auto;
     scroll-behavior: smooth;
 }
-
 
 /* ---------------------------About----------------------- */
 
